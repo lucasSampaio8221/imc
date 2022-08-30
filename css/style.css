@@ -1,0 +1,72 @@
+body {
+  padding: 10px;
+  font-family: 'Anek Telugu', sans-serif;
+  background-color: rgb(255, 254, 254);
+}
+
+#paragraph-result {
+  margin-top: 20px;
+}
+
+input {
+  margin-top: -5px;
+  width: 200px;
+}
+h1{
+  display: flex;
+  justify-content: center;
+}
+p{
+  display: flex;
+  justify-content: center;
+}
+#button-calculate-imc{
+  background: #0066A2;
+  color: white;
+  border-style: outset;
+  border-color: #0066A2;
+  height: 30px;
+  width: 125px;
+  text-shadow:none;
+  border-radius: 50px;
+}
+#button-calculate-imc:hover{
+  background: #09406b;
+  color: white;
+  border-style: outset;
+  border-color: #0066A2;
+  height: 30px;
+  width: 125px;
+  text-shadow:none;
+}
+
+table, th, td{
+ border: 20px solid rgb(195, 195, 195);
+ border-collapse: collapse;
+ width: 110px;
+ table-layout: fixed;
+ align-items: center;
+}
+th, td{
+  padding: 15px;
+  border-spacing: 10px;
+}
+th{
+  text-align: center;
+  height: 20px;
+  vertical-align: bottom;
+}
+.calculadora{
+  width: 100%;
+  height: 75%;
+  display: flex;  
+  justify-content: center;
+  align-items: center;
+}
+.container{
+  width: 100vw;
+  height: 45vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
